@@ -1,97 +1,109 @@
-# Parking-Lot-Management-System
+# Vehicle Parking Management System 🚗
 
-📌 Overview
+## 📌 Project Overview
 
-The Parking Lot Management System is a Java console-based application developed using Object-Oriented Programming (OOP) concepts.
-This project simulates a small parking lot where users can add vehicles, search for parked vehicles, display all parked vehicles, and count vehicles by type.
+The **Vehicle Parking Management System** is a Java console-based application developed using **Object-Oriented Programming (OOP) concepts** and **Arrays**.
+This project simulates a small parking lot where vehicles can be parked, searched, displayed, and counted by type.
 
-The system uses arrays to store vehicle records and has a fixed parking capacity of 5 vehicles.
+The system allows users to manage parked vehicles efficiently while demonstrating basic Java programming concepts such as classes, objects, interfaces, and arrays.
 
-🎯 Features
+---
 
-Add a vehicle to the parking lot
+## 🎯 Features
 
-Display all parked vehicles
+* Add a vehicle to the parking lot
+* Display all parked vehicles
+* Search a vehicle using vehicle number
+* Count vehicles by type (Car, Bike, etc.)
+* Exit the application
 
-Search vehicle by vehicle number
+---
 
-Count vehicles by vehicle type
+## ⚙️ Technologies Used
 
-Menu-driven console interface
+* **Java**
+* **OOP Concepts**
+* **Arrays**
+* **Interface & Implementation Classes**
+* **Console-based UI**
 
-🧠 Concepts Used
+---
 
-Object-Oriented Programming (OOP)
+## 🧠 Concepts Implemented
 
-Classes and Objects
+This project demonstrates the following Java concepts:
 
-Interfaces and Implementation
+* Classes and Objects
+* Interfaces
+* Encapsulation
+* Method Implementation
+* Arrays for storing vehicle records
+* Menu-driven console program
 
-Arrays
+---
 
-Java Console Input/Output
+## 🅿️ Parking System Logic
 
-Menu-driven program design
+* The parking lot has a **maximum capacity of 5 vehicles**.
+* Vehicles are stored in an **array**.
+* Each vehicle record contains:
 
-🅿️ Parking Logic
+  * Vehicle Number
+  * Vehicle Type
+  * Owner Name
 
-The parking lot has a maximum capacity of 5 vehicles.
+If the parking lot reaches its capacity, the system will prevent adding more vehicles.
 
-Vehicles are stored using an array structure.
+---
 
-Each vehicle contains details such as:
+## 📂 Project Structure
 
-Vehicle Number
+```
+VehicleParkingManagementSystem
+│
+├── controller
+│   └── VehicleController.java
+│
+├── service
+│   ├── ParkingInterface.java
+│   └── ParkingServiceImpl.java
+│
+└── model
+    └── Vehicle.java
+```
 
-Vehicle Type
+---
 
-Owner Name
+## ▶️ How to Run the Project
 
-If the parking lot is full, new vehicles cannot be added.
+1. Clone the repository
+2. Open the project in any Java IDE (Eclipse / IntelliJ / VS Code)
+3. Compile the project
+4. Run `VehicleController.java`
 
-📂 Project Structure
-src/
- ├── controller
- │    └── VehicleController.java
- │
- ├── service
- │    ├── ParkingInterface.java
- │    └── ParkingServiceImpl.java
- │
- └── model
-      └── Vehicle.java
-▶️ How to Run
+---
 
-Clone the repository
+## 📋 Menu Options
 
-Open the project in any Java IDE (Eclipse / IntelliJ / VS Code)
+```
+1. Add a Vehicle
+2. Display All Parked Vehicles
+3. Search Vehicle By Vehicle Number
+4. Count Vehicles By Type
+5. Exit Application
+```
 
-Compile the project
+---
 
-Run VehicleController.java
+## 🚀 Future Improvements
 
-📋 Menu Options
+* Database integration
+* GUI interface (Java Swing / JavaFX)
+* Web-based parking management system
+* Dynamic parking capacity
 
-Add a Vehicle
+---
 
-Display All Parked Vehicles
+## 👨‍💻 Author
 
-Search Vehicle by Vehicle Number
-
-Count Vehicles by Type
-
-Exit Application
-
-🚀 Future Improvements
-
-Database integration
-
-Graphical User Interface (GUI)
-
-Dynamic parking capacity
-
-Web-based parking management system
-
-👨‍💻 Author
-
-Developed as a Java OOP practice project for learning and academic purposes.
+Developed as a **Java OOP practice project** for learning and academic purposes.
